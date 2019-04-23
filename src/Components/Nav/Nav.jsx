@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Nav from 'react-bootstrap/Nav';
-import './Nav.scss'
+import './Nav.scss';
 
 class NavDropdownExample extends Component {
-    state= {activeKey: 1}
+    state= {activeKey: null}
 
     handleSelect(eventKey) {
         console.log(eventKey)
@@ -12,14 +12,14 @@ class NavDropdownExample extends Component {
   
     render() {
       return (
-        <Nav  className="justify-content-end nav" variant="pills" activeKey={this.state.activeKey} onSelect={k => this.handleSelect(k)}>
+        <Nav fluid className="justify-content-end fixed-top nav pr-5" variant="pills" activeKey={this.state.activeKey} onSelect={k => this.handleSelect(k)}>
           <Nav.Item>
             <Nav.Link eventKey="1" href="#/home">
               Home
             </Nav.Link>
           </Nav.Item>
           <Nav.Item className="test">
-            <Nav.Link className="test" eventKey="2" title="Item">
+            <Nav.Link eventKey="2" title="Item">
               Czas i Miejsce
             </Nav.Link>
           </Nav.Item>
