@@ -1,0 +1,12 @@
+export default [{path: '/images/1.jpg'},
+{path: '/images/2.jpg'},
+{path: '/images/3.jpg'},
+{path: '/images/4.jpg'},
+{path: '/images/5.jpg'},
+{path: '/images/6.jpg'},
+{path: '/images/7.jpg'},
+{path: '/images/8.jpg'},
+{path: '/images/9.jpg'},
+{path: '/images/10.jpg'},
+{path: '/images/11.jpg'},
+{path: '/images/12.jpg'}]

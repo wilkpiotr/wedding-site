@@ -4,6 +4,7 @@ import './App.scss';
 import Button from './Components/Button/Button';
 import NavDropdownExample from './Components/Nav/Nav';
 import Home from './Components/Home/Home'
+import Gallery from './Components/Gallery/Gallery'
 
 class App extends Component {
   render() {
@@ -11,9 +12,10 @@ class App extends Component {
     <nav>
       <NavDropdownExample/></nav>
       <Home/>
+      
+      <Gallery/>
       <div className="App-header">
         
-      <Button kind="outline-info" text="Btn"></Button>
       </div>
       </Fragment>
     )}

@@ -12,7 +12,7 @@ class NavDropdownExample extends Component {
   
     render() {
       return (
-        <Nav fluid className="justify-content-end fixed-top nav pr-5" variant="pills" activeKey={this.state.activeKey} onSelect={k => this.handleSelect(k)}>
+        <Nav className="justify-content-end fixed-top nav pr-5 fluid" variant="pills" activeKey={this.state.activeKey} onSelect={k => this.handleSelect(k)}>
           <Nav.Item>
             <Nav.Link eventKey="1" href="#/home">
               Home
