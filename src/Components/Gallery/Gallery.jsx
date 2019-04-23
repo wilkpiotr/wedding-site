@@ -13,7 +13,12 @@ class Gallery extends Component {
         limit: 4}
 
     handleClick = (e) => {
-        this.setState((state) => {return {limit: this.state.limit + 4}})
+        this.setState((state) => {return {limit: this.state.limit + 4}});
+        window.scrollBy({
+            top: 500,
+            left: 0,
+            behavior: 'smooth'
+        })
     }
 
     render() {
