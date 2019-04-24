@@ -7,6 +7,7 @@ import Home from './Components/Home/Home'
 import Gallery from './Components/Gallery/Gallery'
 import Time from './Components/Time/Time'
 import WeddingWishes from './Components/WeddingWishes/WeddingWishes'
+import WishingForm from './Components/Form/Form'
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
       <Time/>
       <Gallery/>
       <WeddingWishes/>
+      <WishingForm/>
       </Fragment>
     )}
 }
