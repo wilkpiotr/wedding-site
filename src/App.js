@@ -6,6 +6,7 @@ import NavDropdownExample from './Components/Nav/Nav';
 import Home from './Components/Home/Home'
 import Gallery from './Components/Gallery/Gallery'
 import Time from './Components/Time/Time'
+import WeddingWishes from './Components/WeddingWishes/WeddingWishes'
 
 class App extends Component {
   render() {
@@ -15,9 +16,7 @@ class App extends Component {
       <Home/>
       <Time/>
       <Gallery/>
-      <div className="App-header">
-        
-      </div>
+      <WeddingWishes/>
       </Fragment>
     )}
 }

@@ -1,0 +1,15 @@
+.time {
+    height: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    #countdown {
+        border-top: 3px solid #dc3545;
+        border-bottom: 3px solid #dc3545;
+        .clock {
+            width: 135px;
+            .days, .hours, .minutes, .seconds {
+                font-size: 3rem;
+            }
+        }
+    }
+}

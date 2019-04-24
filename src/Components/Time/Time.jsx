@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import './Time.scss'
 
 class Time extends Component {
 
@@ -12,7 +13,7 @@ class Time extends Component {
         seconds: 0}
 
     componentDidMount() {
-        const timeinterval = setInterval(this.countdown,1000)
+        setInterval(this.countdown,1000)
     }
 
     countdown = () => {
@@ -33,30 +34,29 @@ class Time extends Component {
 
     render() {
     return(
-    <Container>
-        <Row>
-            <h3>Od naszego ślubu minęło już:</h3>
+    <Container className="time">
+        <Row className="justify-content-center">
+            <h3 className="pb-3 text-danger">Jesteśmy już małżeństwem od:</h3>
+        </Row>
+        <Row className="justify-content-center">
             <div className="d-inline-block" id="countdown">
-                <div className="clock d-inline-block">
+                <div className="clock d-inline-block text-center">
                     <span className="days">{this.state.days}</span>
                     <p>Dni</p>
                 </div>
-                <div className="clock d-inline-block">
+                <div className="clock d-inline-block text-center">
                     <span className="hours">{this.state.hours}</span>
                     <p> Godzin</p>
                 </div>
-                <div className="clock d-inline-block">
+                <div className="clock d-inline-block text-center">
                     <span className="minutes">{this.state.minutes}</span>
                     <p> Minut</p>
                 </div>
-                <div className="clock d-inline-block">
+                <div className="clock d-inline-block text-center">
                     <span className="seconds">{this.state.seconds}</span>
                     <p> Sekund</p>
                 </div>
             </div>
-        </Row>
-        <Row>
-            <Col>1 of 2</Col>
         </Row>
     </Container>
     )}
