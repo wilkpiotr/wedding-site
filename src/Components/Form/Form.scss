@@ -1,0 +1,27 @@
+.gradient {
+    background: rgba(246,246,246,1);
+    background: -moz-linear-gradient(left, rgba(246,246,246,1) 0%, rgba(255,255,255,1) 50%, rgba(237,237,237,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(246,246,246,1)), color-stop(50%, rgba(255,255,255,1)), color-stop(100%, rgba(237,237,237,1)));
+    background: -webkit-linear-gradient(left, rgba(246,246,246,1) 0%, rgba(255,255,255,1) 50%, rgba(237,237,237,1) 100%);
+    background: -o-linear-gradient(left, rgba(246,246,246,1) 0%, rgba(255,255,255,1) 50%, rgba(237,237,237,1) 100%);
+    background: -ms-linear-gradient(left, rgba(246,246,246,1) 0%, rgba(255,255,255,1) 50%, rgba(237,237,237,1) 100%);
+    background: linear-gradient(to right, rgba(246,246,246,1) 0%, rgba(255,255,255,1) 50%, rgba(237,237,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#ededed', GradientType=1 );
+
+.form-container {
+    padding: 50px 0px;
+    
+    .form-control {
+        border: 1px solid #dc3545;
+
+    }
+    .input-group-text {
+        border: 1px solid #dc3545;
+        background-color: #17a2b8;
+        color: #fff;
+    }
+    textarea {
+        height: 100px;
+    }
+}
+}
