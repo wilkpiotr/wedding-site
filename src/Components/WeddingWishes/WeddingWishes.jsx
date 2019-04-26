@@ -5,10 +5,10 @@ import Col from 'react-bootstrap/Col';
 import './WeddingWishes.scss'
 
 
-const WeddingWishes = (props) => {
+const WeddingWishes = ({greetings}) => {
     
     return(
-    <Container>
+    <Container id="wishes">
         <Row>
             <Col>
                 <h3 className="text-center">Kochani!</h3>
@@ -16,7 +16,7 @@ const WeddingWishes = (props) => {
             </Col>
         </Row>
             
-            {props.greetings.map((greeting, index) => {
+            {greetings.map((greeting, index) => {
                 return(<Row key={index}>
                     <Col className="wishes my-1">
                     <p><b>{greeting.author}</b><cite> napisali {greeting.date}</cite></p>

@@ -23,7 +23,9 @@ class Gallery extends Component {
 
     render() {
         return(
+        <Container fluid className="gallery" id="gallery">
         <Container>
+
             <Row className="justify-content-center">
                 <h2 className="text-danger mt-5">A tak się bawiliśmy:</h2>
             </Row>
@@ -38,6 +40,7 @@ class Gallery extends Component {
             <Row className="justify-content-center">
                 <Button onClick={this.handleClick} kind="primary" text="Więcej Zdjęć"/>
             </Row>
+        </Container>
             
         </Container>
         )

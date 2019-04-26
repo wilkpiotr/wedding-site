@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import './Time.scss'
 
 class Time extends Component {
@@ -34,7 +33,7 @@ class Time extends Component {
 
     render() {
     return(
-    <Container className="time">
+    <Container className="time" id="time">
         <Row className="justify-content-center">
             <h3 className="pb-3 text-danger">Jesteśmy już małżeństwem od:</h3>
         </Row>

@@ -12,29 +12,29 @@ class NavDropdownExample extends Component {
   
     render() {
       return (
-        <Nav className="justify-content-end fixed-top nav pr-5 fluid" variant="pills" activeKey={this.state.activeKey} onSelect={k => this.handleSelect(k)}>
-          <Nav.Item>
-            <Nav.Link eventKey="1" href="#/home">
+        <Nav as="ul" className="justify-content-end fixed-top nav pr-5 text-uppercase" variant="pills" activeKey={this.state.activeKey} onSelect={k => this.handleSelect(k)}>
+          <Nav.Item as="li">
+            <Nav.Link as="a" eventKey="1" href="#home">
               Home
             </Nav.Link>
           </Nav.Item>
-          <Nav.Item className="test">
-            <Nav.Link eventKey="2" title="Item">
+          <Nav.Item as="li" className="test">
+            <Nav.Link as="a" eventKey="2" href="#time">
               Czas i Miejsce
             </Nav.Link>
           </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="3">
+          <Nav.Item as="li">
+            <Nav.Link as="a" eventKey="3" href="#gallery">
               Galeria
             </Nav.Link>
           </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="4">
+          <Nav.Item as="li">
+            <Nav.Link as="a" eventKey="4" href="#wishes">
               Życzenia
             </Nav.Link>
           </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="5">
+          <Nav.Item as="li">
+            <Nav.Link as="a" eventKey="5" href="#footer">
               Kontakt
             </Nav.Link>
           </Nav.Item>

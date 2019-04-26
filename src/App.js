@@ -7,6 +7,7 @@ import Home from './Components/Home/Home'
 import Gallery from './Components/Gallery/Gallery'
 import Time from './Components/Time/Time'
 import Greetings from './Components/Greetings/Greetings'
+import Footer from './Components/Footer/Footer'
 
 class App extends Component {
   render() {
@@ -17,7 +18,7 @@ class App extends Component {
       <Time/>
       <Gallery/>
       <Greetings/>
-
+      <Footer/>
       </>
     )}
 }
