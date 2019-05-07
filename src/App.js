@@ -8,6 +8,7 @@ import Gallery from './Components/Gallery/Gallery'
 import Time from './Components/Time/Time'
 import Greetings from './Components/Greetings/Greetings'
 import Footer from './Components/Footer/Footer'
+import Place from './Components/Place/Place'
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
       <NavDropdownExample/></nav>
       <Home/>
       <Time/>
+      <Place/>
       <Gallery/>
       <Greetings/>
       <Footer/>
