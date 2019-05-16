@@ -11,10 +11,24 @@ class NavDropdownExample extends Component {
     }
   
     render() {
+
+      const checkScroll = () => {
+        if (window.scrollY > 500) {
+          const navi = document.querySelector('.link');
+          navi.classList.add('scroll');
+        } else {
+          const navi = document.querySelector('.link');
+          navi.classList.remove('scroll');
+        }
+      }
+
+      window.setInterval(checkScroll, 100)
+
       return (
+        
         <Nav as="ul" className="justify-content-end fixed-top nav pr-5 text-uppercase" variant="pills" activeKey={this.state.activeKey} onSelect={k => this.handleSelect(k)}>
           <Nav.Item as="li">
-            <Nav.Link as="a" className="link " eventKey="1" href="#home">
+            <Nav.Link as="a" className="link" eventKey="1" href="#home">
               Home
             </Nav.Link>
           </Nav.Item>
