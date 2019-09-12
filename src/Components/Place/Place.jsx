@@ -30,7 +30,7 @@ const Place = () => {
             </Col>
         </Row>
         <Row className="p-0 m-0 ">
-            <Col className="mt-5 text-danger">
+            <Col className="mt-5 text-danger media">
                 <h4>WESELE</h4>
                 <p>Przyjęcie weselne będzie miało miejsce w restauracji Ambrozja przy ulicy Adama Mickiewicza 62 w Dębicy.</p>
                 <Figure.Image className="align-self-cente"

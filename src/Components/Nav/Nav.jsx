@@ -26,10 +26,10 @@ class NavDropdownExample extends Component {
 
       return (
         
-        <Nav as="ul" className="justify-content-end fixed-top nav pr-5 text-uppercase" variant="pills" activeKey={this.state.activeKey} onSelect={k => this.handleSelect(k)}>
+        <Nav as="ul" className="justify-content-end fixed-top nav pr-5 text-uppercase text-light" variant="pills" activeKey={this.state.activeKey} onSelect={k => this.handleSelect(k)}>
           <Nav.Item as="li">
             <Nav.Link as="a" className="link" eventKey="1" href="#home">
-              Home
+              Piotr & Agata
             </Nav.Link>
           </Nav.Item>
           <Nav.Item as="li" className="test">

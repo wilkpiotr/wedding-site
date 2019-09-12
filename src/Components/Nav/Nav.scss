@@ -4,7 +4,7 @@
     font-weight: bold;
     font-size: 1.3rem;
     .link {
-        color: rgb(38, 38, 38);
+        // color: rgb(38, 38, 38);
         background-color: rgba($color: #ffffff, $alpha: 0.3);
         background-clip: border-box;
         padding-top: 5px;
@@ -17,5 +17,5 @@
     }
 }
 .scroll {
-    color: red!important;
+    color: red;
 }

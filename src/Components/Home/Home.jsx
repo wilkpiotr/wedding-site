@@ -10,8 +10,8 @@ const Home = () => {
     <Container fluid className="p-0 pt-5 vh-100 home" id="home">
         <Row className="p-0 m-0 ">
             <Col className="mt-5">
-                <h1 className="text-center display-4 text-danger head">Piotr & Agata</h1>
-                <p className="lead text-center text-danger">Serdecznie witamy na naszej stronie ślubnej</p>
+                <h1 className="text-center display-4 text-light head">Piotr & Agata</h1>
+                <p className="lead text-center text-light">Pobieramy się!</p>
             </Col>
         </Row>
     </Container>
